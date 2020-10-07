@@ -192,8 +192,8 @@ class ModelManager(nn.Module):
                 adj[i, j, intent_idx[i]] = 1.
         if self.__args.row_normalized:
             adj = normalize_adj(adj)
-        # if self.__args.gpu:
-        #     adj = adj.cuda()
+        if self.__args.gpu:
+            adj = adj.cuda()
         return adj
 
     def forward(self, text, seq_lens, n_predicts=None, forced_slot=None, forced_intent=None):
