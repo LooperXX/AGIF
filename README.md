@@ -1,8 +1,8 @@
-# AGIF: An Adaptive Graph-Interactive Framework for Joint MultipleIntent Detection and Slot Filling
+# AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling
 
 This repository contains the official `PyTorch` implementation of the paper: 
 
-**AGIF: An Adaptive Graph-Interactive Framework for Joint MultipleIntent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](https://looperxx.github.io/), [Wanxiang Che](http://ir.hit.edu.cn/~car/chinese.htm), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[PDF(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[PDF]](https://www.aclweb.org/anthology/)
+**AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](https://looperxx.github.io/), [Wanxiang Che](http://ir.hit.edu.cn/~car/chinese.htm), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[PDF(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[PDF]](https://www.aclweb.org/anthology/)
 
 If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
