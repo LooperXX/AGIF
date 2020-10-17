@@ -27,18 +27,7 @@ In the following, we will guide you how to use this repository step by step.
 >
 > We rerun all the experiments and the results are as follows:
 
-|                         |  MixATIS_clean  |             |              |               | MixSNIPS_clean  |             |              |               |
-| :---------------------: | :-------: | :---------: | :----------: | :-----------: | :-------: | :---------: | :----------: | :-----------: |
-|         **Model**       | Slot (F1) | Intent (F1) | Intent (Acc) | Overall (Acc) | Slot (F1) | Intent (F1) | Intent (Acc) | Overall (Acc) |
-|     Attention BiRNN     |   86.4    |      -      |     74.6     |     39.1      |   89.4    |      -      |     95.4     |     59.5      |
-|     Slot-gated Full     |   86.9    |      -      |     64.4     |     35.5      |   87.5    |      -      |     94.6     |     53.1      |
-|    Slot-gated Intent    |   87.7    |      -      |     63.9     |     35.5      |   87.9    |      -      |     94.6     |     55.4      |
-|        Bi-Model         |   83.9    |      -      |     70.3     |     34.4      |   90.7    |      -      |     95.6     |     63.4      |
-|          SF-ID          |   87.4    |      -      |     66.2     |     34.9      |   90.6    |      -      |     95.0     |     59.9      |
-|    Stack-Propagation    |   86.9    |      -      |   **76.3**   |     40.8      |   93.9    |      -      |   **96.5**   |     73.9      |
-| Stack-Propagation-Multi |   86.9    |    83.0     |     71.1     |     38.9      |   93.9    |    98.4     |     96.1     |     73.4      |
-|  Joint Multiple ID&SL   |   84.9    |    83.6     |     73.9     |     32.4      |   91.2    |    98.0     |     95.1     |     65.8      |
-|          AGIF           | **88.0**  |  **84.6**   |     76.1     |   **44.1**    | **94.6**  |  **98.5**   |     96.1     |   **75.4**    |
+![result_single](img/result_multi_clean.png)
 
 ## Preparation
 
