@@ -7,7 +7,14 @@ This repository contains the PyTorch implementation of the paper:
 If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
 <pre>
-...
+@misc{qin2020agif,
+      title={AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling}, 
+      author={Libo Qin and Xiao Xu and Wanxiang Che and Ting Liu},
+      year={2020},
+      eprint={2004.10087},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 </pre>
 ![example](img/example.png)
 
