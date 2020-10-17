@@ -21,7 +21,11 @@ In the following, we will guide you how to use this repository step by step.
 
 ![result_single](img/result_single.png)
 
-> Tips: We find some repeated sentences in the `MixATIS` and `MixSNIPS` datasets so that we clean these two datasets and name them `MixATIS_clean` and `MixSNIPS_clean`. We rerun all the experiments and the results are as follows:
+> Tips: We find some repeated sentences in the `MixATIS` and `MixSNIPS` datasets so that we clean these two datasets and name them `MixATIS_clean` and `MixSNIPS_clean`. 
+>
+> There are `[13162, 759, 828]` utterances for training, validation and testing in the `MixATIS_clean` and `[39776, 2198, 2199]` in the `MixSNIPS_clean`.
+>
+> We rerun all the experiments and the results are as follows:
 
 |                         |  MixATIS_clean  |             |              |               | MixSNIPS_clean  |             |              |               |
 | :---------------------: | :-------: | :---------: | :----------: | :-----------: | :-------: | :---------: | :----------: | :-----------: |
