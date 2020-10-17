@@ -32,7 +32,7 @@ In the following, we will guide you how to use this repository step by step.
 >
 > There are `[13162, 759, 828]` utterances for training, validation and testing in the `MixATIS_clean` and `[39776, 2198, 2199]` in the `MixSNIPS_clean`.
 >
-> We rerun all the experiments and the results are as follows:
+**We recommend using the cleaned version datasets.** We rerun all the experiments and the results are as follows:
 
 ![result_single](img/result_multi_clean.png)
 
