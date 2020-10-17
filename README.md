@@ -107,7 +107,7 @@ Due to some stochastic factors(*e.g*., GPU and environment), it maybe need to sl
 > P.S. We just slightly tune the hyper-parameters.
 
 
-If you have any question, please issue the project or email [me](mailto:xxu@ir.hit.edu.cn) or [yizhen](mailto:lbqin@ir.hit.edu.cn) and we will reply you soon.
+If you have any question, please issue the project or email [me](mailto:xxu@ir.hit.edu.cn) or [lbqin](mailto:lbqin@ir.hit.edu.cn) and we will reply you soon.
 
 ## Acknowledgement
 
