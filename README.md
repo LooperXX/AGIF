@@ -2,18 +2,25 @@
 
 This repository contains the official `PyTorch` implementation of the paper: 
 
-**AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](https://looperxx.github.io/), [Wanxiang Che](http://ir.hit.edu.cn/~car/chinese.htm), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[PDF(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[PDF]](https://www.aclweb.org/anthology/)
+**AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](https://looperxx.github.io/), [Wanxiang Che](http://ir.hit.edu.cn/~car/chinese.htm), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[Paper(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[Paper]](https://www.aclweb.org/anthology/2020.findings-emnlp.163/)
 
 If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
 <pre>
-@misc{qin2020agif,
-      title={AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling}, 
-      author={Libo Qin and Xiao Xu and Wanxiang Che and Ting Liu},
-      year={2020},
-      eprint={2004.10087},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{qin-etal-2020-agif,
+    title = "{AGIF}: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling",
+    author = "Qin, Libo  and
+      Xu, Xiao  and
+      Che, Wanxiang  and
+      Liu, Ting",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.163",
+    pages = "1807--1816",
+    abstract = "In real-world scenarios, users usually have multiple intents in the same utterance. Unfortunately, most spoken language understanding (SLU) models either mainly focused on the single intent scenario, or simply incorporated an overall intent context vector for all tokens, ignoring the fine-grained multiple intents information integration for token-level slot prediction. In this paper, we propose an Adaptive Graph-Interactive Framework (AGIF) for joint multiple intent detection and slot filling, where we introduce an intent-slot graph interaction layer to model the strong correlation between the slot and intents. Such an interaction layer is applied to each token adaptively, which has the advantage to automatically extract the relevant intents information, making a fine-grained intent information integration for the token-level slot prediction. Experimental results on three multi-intent datasets show that our framework obtains substantial improvement and achieves the state-of-the-art performance. In addition, our framework achieves new state-of-the-art performance on two single-intent datasets.",
 }
 </pre>
 ![example](img/example.png)
