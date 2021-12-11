@@ -293,8 +293,9 @@ class Processor(object):
                 intent_idx_[item[0]].append(item[1])
             intent_idx = intent_idx_
             pred_intent.extend(dataset.intent_alphabet.get_instance(intent_idx))
-        if 'MixSNIPS' in args.data_dir or 'MixATIS' in args.data_dir or 'DSTC' in args.data_dir:
-            [p_intent.sort() for p_intent in pred_intent]
+        # if 'MixSNIPS' in args.data_dir or 'MixATIS' in args.data_dir or 'DSTC' in args.data_dir:
+        [p_intent.sort() for p_intent in pred_intent]
+        [r_intent.sort() for r_intent in real_intent]
         with open(os.path.join(args.save_dir, 'token.txt'), "w", encoding="utf8") as writer:
             idx = 0
             for line, slots, rss in zip(all_token, pred_slot, real_slot):
