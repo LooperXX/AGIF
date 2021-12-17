@@ -2,7 +2,7 @@
 
 This repository contains the official `PyTorch` implementation of the paper: 
 
-**AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](https://looperxx.github.io/), [Wanxiang Che](http://ir.hit.edu.cn/~car/chinese.htm), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[Paper(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[Paper]](https://www.aclweb.org/anthology/2020.findings-emnlp.163/)
+**AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling**. [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Xiao Xu](http://ir.hit.edu.cn/~xxu/), [Wanxiang Che](http://ir.hit.edu.cn/~car/), [Ting Liu](http://ir.hit.edu.cn/~liuting/). ***EMNLP 2020 Accept-Findings***. [[Paper(Arxiv)]](https://arxiv.org/pdf/2004.10087.pdf) [[Paper]](https://www.aclweb.org/anthology/2020.findings-emnlp.163/)
 
 If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
@@ -106,6 +106,6 @@ If you have any question, please issue the project or email [me](mailto:xxu@ir.h
 
 ## Acknowledgement
 
-A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding. Libo Qin,Wanxiang Che, Yangming Li, Haoyang Wen and Ting Liu. *(EMNLP 2019)*. Long paper. [[pdf]](https://www.aclweb.org/anthology/D19-1214/) [[code]](https://github.com/LeePleased/StackPropagation-SLU)
+A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding. Libo Qin, Wanxiang Che, Yangming Li, Haoyang Wen and Ting Liu. *(EMNLP 2019)*. Long paper. [[pdf]](https://www.aclweb.org/anthology/D19-1214/) [[code]](https://github.com/LeePleased/StackPropagation-SLU)
 
 >   We are highly grateful for the public code of Stack-Propagation!
